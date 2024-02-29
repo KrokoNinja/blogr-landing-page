@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const fontFamily = require("tailwindcss/defaultTheme").fontFamily;
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +10,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "overpass": ["var(--overpass-font)", ...fontFamily.sans],
+        "ubuntu": ["var(--ubuntu-font)", ...fontFamily.sans],
+      },
       colors: {
         primary: {
           "light-red": "hsl(356, 100%, 66%)",
