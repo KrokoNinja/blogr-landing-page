@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+
+    
+    .btn {
+        @apply font-ubuntu rounded-full py-3 px-5 font-bold;
+    }
+    
+    .button-primary {
+        @apply bg-neutral-white text-primary-light-red;
+    }
+    
+    .button-secondary {
+        @apply border border-neutral-white text-neutral-white;
+    }
+
+    .button-primary-hover {
+        @apply hover:bg-primary-very-light-red hover:text-neutral-white;
+    }
+}
+

@@ -10,7 +10,7 @@ export default function Nav() {
             </ul>
             <div className="flex gap-x-2">
                 <button className="text-neutral-white rounded-full font-bold py-2 px-8">Login</button>
-                <button className="text-primary-light-red font-bold bg-white py-2 px-8 rounded-full">Sign Up</button>
+                <button className="btn button-primary button-primary-hover px-8 py-2 ">Sign Up</button>
             </div>
         </nav>
     )
