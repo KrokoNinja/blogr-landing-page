@@ -1,5 +1,5 @@
 export default function Nav() {
     return (
-        <nav>Nav</nav>
+        <nav className="hidden xl:flex">Nav</nav>
     )
 }

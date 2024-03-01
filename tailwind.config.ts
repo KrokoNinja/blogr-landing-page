@@ -35,6 +35,10 @@ const config: Config = {
           "very-dark-dasaturated-blue": "hsl(237, 23%, 32%)",
         },
       },
+      backgroundImage: (theme) => ({
+        "mobile": "url('/bg-pattern-intro-mobile.svg')",
+        "desktop": "url('/bg-pattern-intro-desktop.svg')",
+      }),
     },
   },
   plugins: [],
