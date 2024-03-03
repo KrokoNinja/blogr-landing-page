@@ -1,9 +1,9 @@
 'use client';
-import Image from "next/image";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "./ui/navigation-menu";
 
 export default function Nav() {
     return (
+        //TODO: Change Content positioning to be aligned under the trigger
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
@@ -36,7 +36,7 @@ export default function Nav() {
             </NavigationMenuList>
             <NavigationMenuList className="gap-x-3">
                 <NavigationMenuItem>
-                    <NavigationMenuLink href="#" className="btn button-secondary border-none button-secondary-hover">Login</NavigationMenuLink>
+                    <NavigationMenuLink href="#" className="btn button-secondary border-none button-primary-hover">Login</NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuLink href="#" className="btn button-primary button-primary-hover px-8 py-3">Sign Up</NavigationMenuLink>
