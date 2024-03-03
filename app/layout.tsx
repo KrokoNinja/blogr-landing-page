@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Ubuntu, Overpass } from "@next/font/google";
+import { Ubuntu, Overpass } from "next/font/google";
 import "./globals.css";
 
 const ubuntu = Ubuntu({
